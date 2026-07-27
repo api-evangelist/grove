@@ -1,9 +1,28 @@
 aid: grove
 name: Grove
-description: 'Grove is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Grove (Grove Collaborative) is a direct-to-consumer retailer of everyday
+  household essentials for a healthier home and planet, including eco-friendly cleaning
+  products, bamboo paper products, personal care, and vitamins & supplements sourced
+  from hundreds of vetted brands alongside its own private labels. Orders are held
+  to strict ingredient standards, are carbon neutral, and support plastic-waste cleanup.
+  The business runs as a subscription-friendly e-commerce storefront (hosted on Shopify).
+  It was surfaced as a portfolio company of Norwest Venture Partners and added to the
+  API Evangelist network; Grove operates a consumer retail storefront and publishes
+  no public developer API, so this profile captures its identity and web properties
+  rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/grove/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.grove.co/cdn/shop/files/Grove-Meta_Preview.jpg?v=1773877757
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Consumer Goods
+- E-commerce
+- Retail
+- Household Products
+- Personal Care
+- Sustainability
+- Subscription
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/grove-domain-security.yml
 - type: Website
   url: https://grove.co
+- type: Blog
+  url: https://www.grove.co/blog
+- type: PrivacyPolicy
+  url: https://www.grove.co/policies/privacy-policy
+- type: TermsOfService
+  url: https://www.grove.co/policies/terms-of-service
+- type: SignUp
+  url: https://www.grove.co/account/register
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
